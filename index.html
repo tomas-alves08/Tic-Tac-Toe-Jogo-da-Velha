@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+
+  <body>
+    <h1>Tic-Tac-Toe</h1>
+
+    <br />
+
+    <table class="table">
+      <tr>
+        <td class="option" onclick="display_input('1')" id="1"></td>
+        <td class="option" onclick="display_input('2')" id="2"></td>
+        <td class="option" onclick="display_input('3')" id="3"></td>
+      </tr>
+      <tr>
+        <td class="option" onclick="display_input('4')" id="4"></td>
+        <td class="option" onclick="display_input('5')" id="5"></td>
+        <td class="option" onclick="display_input('6')" id="6"></td>
+      </tr>
+      <tr>
+        <td class="option" onclick="display_input('7')" id="7"></td>
+        <td class="option" onclick="display_input('8')" id="8"></td>
+        <td class="option" onclick="display_input('9')" id="9"></td>
+      </tr>
+    </table>
+
+    <div class="subtitle">
+      <h2 id="subtitle">Click on a cell to start!</h2>
+    </div>
+    <br />
+    <div><button class="restart">Restart The Game</button></div>
+    <script src="game.js"></script>
+  </body>
+</html>

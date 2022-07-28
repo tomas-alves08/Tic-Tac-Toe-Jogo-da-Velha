@@ -1,0 +1,76 @@
+/* Game board and text not responsive yet*/
+
+body {
+  background-color: white;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  margin-top: 40px;
+}
+
+table {
+  margin-right: center;
+  margin-left: center;
+  margin: 0 auto;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2vw;
+  color: black;
+}
+
+td {
+  width: 8vw;
+  height: 8vw;
+  text-align: center;
+  font-size: 300%;
+  border: black solid 3px;
+  color: black;
+}
+
+tr:first-child td {
+  border-top: 0px;
+}
+
+tr td:first-child {
+  border-left: 0px;
+}
+
+tr:last-child td {
+  border-bottom: 0px;
+}
+
+tr td:last-child {
+  border-right: 0px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2vw;
+  color: #4c2c92;
+}
+
+button {
+  width: 15vw;
+  height: 4vw;
+  font-size: 1.3vw;
+  font-weight: 600;
+  border-radius: 10px;
+  background: linear-gradient(#d3e664, #bae591);
+  box-shadow: 7px 7px 5px 2px rgba(17, 17, 17, 0.2);
+}
+
+.middle-content {
+  display: inline-block;
+}
+
+.subtitle {
+  width: 30vw;
+  height: 5vw;
+  text-align: center;
+  margin: auto;
+}
